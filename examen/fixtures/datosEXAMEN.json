@@ -1,0 +1,1161 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-11-05T09:38:42.648Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "SistemaVotaciones object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Puntuacion proyecto\", \"Comentario\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-11-05T09:38:46.886Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "SistemaVotaciones object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Puntuacion proyecto\", \"Comentario\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-11-05T09:38:50.527Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "SistemaVotaciones object (3)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Puntuacion proyecto\", \"Comentario\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-11-05T09:38:55.030Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "SistemaVotaciones object (5)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Puntuacion proyecto\", \"Comentario\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-11-05T09:38:58.020Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "12",
+        "object_repr": "SistemaVotaciones object (12)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Puntuacion proyecto\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-11-05T09:39:00.491Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "14",
+        "object_repr": "SistemaVotaciones object (14)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Puntuacion proyecto\", \"Comentario\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add bolso",
+        "content_type": 7,
+        "codename": "add_bolso"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change bolso",
+        "content_type": 7,
+        "codename": "change_bolso"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete bolso",
+        "content_type": 7,
+        "codename": "delete_bolso"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view bolso",
+        "content_type": 7,
+        "codename": "view_bolso"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add usuario",
+        "content_type": 8,
+        "codename": "add_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change usuario",
+        "content_type": 8,
+        "codename": "change_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete usuario",
+        "content_type": 8,
+        "codename": "delete_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view usuario",
+        "content_type": 8,
+        "codename": "view_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add sistema votaciones",
+        "content_type": 9,
+        "codename": "add_sistemavotaciones"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change sistema votaciones",
+        "content_type": 9,
+        "codename": "change_sistemavotaciones"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete sistema votaciones",
+        "content_type": 9,
+        "codename": "delete_sistemavotaciones"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view sistema votaciones",
+        "content_type": 9,
+        "codename": "view_sistemavotaciones"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add cuenta bancaria",
+        "content_type": 10,
+        "codename": "add_cuentabancaria"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change cuenta bancaria",
+        "content_type": 10,
+        "codename": "change_cuentabancaria"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete cuenta bancaria",
+        "content_type": 10,
+        "codename": "delete_cuentabancaria"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view cuenta bancaria",
+        "content_type": 10,
+        "codename": "view_cuentabancaria"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$4FuG7MzB0nDL10RHDx08Vv$HVEOy1CLGq/1O0P5O3OmXteVZ/Mxm18k7l6VK0V4sEs=",
+        "last_login": "2024-11-05T09:29:09.963Z",
+        "is_superuser": true,
+        "username": "vic",
+        "first_name": "",
+        "last_name": "",
+        "email": "israel.hernandez.chacon.al@iespoligonosur.org",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-11-05T09:28:53.141Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "examen",
+        "model": "bolso"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "examen",
+        "model": "usuario"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "examen",
+        "model": "sistemavotaciones"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "examen",
+        "model": "cuentabancaria"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "i51xqfepb2ma1kehp17m50ntbd3jwhhk",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSFlqAO4dN9vIDM8pGogKe3K-O_apAvd3nPOfQlP21r81tPi5yguQonT78YUHqnuIN6p3poMra7LzHJX5EG7nFpMz-vh_h0U6uVbW20QrLIAnAKP55wjOp0cWbSjCZxZD4EoDOAYWJHDHCEa4IyQMbF4fwDmfziZ:1t8Fs5:dgDZdNKMX6SIfJccsQy6LalY1kdHVpWZ0gd6Uc4rf60",
+        "expire_date": "2024-11-19T09:29:09.968Z"
+    }
+},
+{
+    "model": "examen.bolso",
+    "pk": 1,
+    "fields": {
+        "preciobolso": 8410,
+        "fabricantebolso": "Pass more north final popular only. Right find own",
+        "longitudcorrea": "Traditional each collection she TV particular.\nUnderstand know message prevent significant walk soci",
+        "materialbolso": "Plastico PVC"
+    }
+},
+{
+    "model": "examen.bolso",
+    "pk": 2,
+    "fields": {
+        "preciobolso": -15023,
+        "fabricantebolso": "Early campaign management hit power though.\nBank s",
+        "longitudcorrea": "Hard provide son authority street various after. Once crime protect wonder serve. City they here lau",
+        "materialbolso": "Lona."
+    }
+},
+{
+    "model": "examen.bolso",
+    "pk": 3,
+    "fields": {
+        "preciobolso": 17015,
+        "fabricantebolso": "Local call mention look lead report. Agree positiv",
+        "longitudcorrea": "Two all bar new plant. Player spring property all. Stock technology beyond himself power.",
+        "materialbolso": "Plastico PVC"
+    }
+},
+{
+    "model": "examen.bolso",
+    "pk": 4,
+    "fields": {
+        "preciobolso": 25398,
+        "fabricantebolso": "Consumer spend audience case effort. Herself baby ",
+        "longitudcorrea": "Law four job key. Fact western team enough fall. Standard also ok cup.\nCapital party believe that st",
+        "materialbolso": "Cuero."
+    }
+},
+{
+    "model": "examen.bolso",
+    "pk": 5,
+    "fields": {
+        "preciobolso": 5309,
+        "fabricantebolso": "Move rock society responsibility. Child form write",
+        "longitudcorrea": "Fly himself good different. Hand hot exist front activity force low ahead. Should camera former sout",
+        "materialbolso": "Plastico PVC"
+    }
+},
+{
+    "model": "examen.bolso",
+    "pk": 6,
+    "fields": {
+        "preciobolso": -17024,
+        "fabricantebolso": "Capital pay process enough thus. Write organizatio",
+        "longitudcorrea": "Where rock view your. Team oil eat environmental.\nYes success case class beat decade situation. Meet",
+        "materialbolso": "Tela."
+    }
+},
+{
+    "model": "examen.bolso",
+    "pk": 7,
+    "fields": {
+        "preciobolso": 2990,
+        "fabricantebolso": "Yard dinner particularly ten whose.\nDeep white off",
+        "longitudcorrea": "Ability important affect perhaps now color final. Inside music get yourself. Rich section alone curr",
+        "materialbolso": "Plastico PVC"
+    }
+},
+{
+    "model": "examen.bolso",
+    "pk": 8,
+    "fields": {
+        "preciobolso": 15225,
+        "fabricantebolso": "Case action me figure compare. Good clear shoulder",
+        "longitudcorrea": "Fear represent I eye. Two by lose. Dinner or recent.\nBaby trial fact maybe. Evidence professor since",
+        "materialbolso": "Cuero."
+    }
+},
+{
+    "model": "examen.bolso",
+    "pk": 9,
+    "fields": {
+        "preciobolso": 32355,
+        "fabricantebolso": "Cut billion person fire among sport. Support power",
+        "longitudcorrea": "Radio even matter feeling take them. Determine Democrat peace treatment. Billion within phone open. ",
+        "materialbolso": "Cuero."
+    }
+},
+{
+    "model": "examen.bolso",
+    "pk": 10,
+    "fields": {
+        "preciobolso": 6988,
+        "fabricantebolso": "Me billion several list where. Director upon box w",
+        "longitudcorrea": "Property turn quality Republican conference act analysis. Statement several time probably informatio",
+        "materialbolso": "Cuero."
+    }
+},
+{
+    "model": "examen.bolso",
+    "pk": 11,
+    "fields": {
+        "preciobolso": 11017,
+        "fabricantebolso": "Skill need figure miss lawyer all. Thought standar",
+        "longitudcorrea": "Nice south since arrive good specific crime. Yes up beyond such. Western some personal speech what s",
+        "materialbolso": "Lona."
+    }
+},
+{
+    "model": "examen.bolso",
+    "pk": 12,
+    "fields": {
+        "preciobolso": -12715,
+        "fabricantebolso": "Report anyone research rather step have Republican",
+        "longitudcorrea": "Not through conference election place that.\nPull image carry. Before others spring forward land scho",
+        "materialbolso": "Cuero."
+    }
+},
+{
+    "model": "examen.bolso",
+    "pk": 13,
+    "fields": {
+        "preciobolso": -29617,
+        "fabricantebolso": "Base at ready operation structure.\nManage south da",
+        "longitudcorrea": "Customer condition put box. Control ball everything director just herself may month. Billion house d",
+        "materialbolso": "Tela."
+    }
+},
+{
+    "model": "examen.bolso",
+    "pk": 14,
+    "fields": {
+        "preciobolso": -14964,
+        "fabricantebolso": "Stay them everybody according sit sport. Identify ",
+        "longitudcorrea": "To lawyer first soldier land send open speak. Member there court sometimes bar now mean.",
+        "materialbolso": "Tela."
+    }
+},
+{
+    "model": "examen.bolso",
+    "pk": 15,
+    "fields": {
+        "preciobolso": -16789,
+        "fabricantebolso": "Move property hotel better hope. West usually poli",
+        "longitudcorrea": "Economic drive popular race strategy your next report. To go piece either some. Form north they empl",
+        "materialbolso": "Plastico PVC"
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 1,
+    "fields": {
+        "nombreusuario": "Big worry piece ever",
+        "telefonousuario": "Property.",
+        "direccion": "Future manager police few incr",
+        "fecharegistrocuenta": "2024-11-05T08:29:16.218Z",
+        "votante_adscrito": true
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 2,
+    "fields": {
+        "nombreusuario": "Court hair woman rel",
+        "telefonousuario": "Mother.",
+        "direccion": "Choose fire significant indica",
+        "fecharegistrocuenta": "2024-11-05T08:29:16.218Z",
+        "votante_adscrito": false
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 3,
+    "fields": {
+        "nombreusuario": "Make generation orde",
+        "telefonousuario": "Game kid.",
+        "direccion": "Sound side return detail them ",
+        "fecharegistrocuenta": "2024-11-05T08:29:16.218Z",
+        "votante_adscrito": false
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 4,
+    "fields": {
+        "nombreusuario": "Ago actually nation ",
+        "telefonousuario": "Under.",
+        "direccion": "Store senior enough manager. M",
+        "fecharegistrocuenta": "2024-11-05T08:29:16.218Z",
+        "votante_adscrito": true
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 5,
+    "fields": {
+        "nombreusuario": "Service character ex",
+        "telefonousuario": "Month.",
+        "direccion": "Decision size summer camera se",
+        "fecharegistrocuenta": "2024-11-05T08:29:16.218Z",
+        "votante_adscrito": false
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 6,
+    "fields": {
+        "nombreusuario": "Necessary health sen",
+        "telefonousuario": "Response.",
+        "direccion": "Floor someone major prevent pu",
+        "fecharegistrocuenta": "2024-11-05T08:29:16.218Z",
+        "votante_adscrito": true
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 7,
+    "fields": {
+        "nombreusuario": "Term loss consider b",
+        "telefonousuario": "Thus.",
+        "direccion": "Former few wait. Day piece us ",
+        "fecharegistrocuenta": "2024-11-05T08:29:16.218Z",
+        "votante_adscrito": false
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 8,
+    "fields": {
+        "nombreusuario": "Respond notice lette",
+        "telefonousuario": "PM rock.",
+        "direccion": "Tell person forward. Anyone ru",
+        "fecharegistrocuenta": "2024-11-05T08:29:16.218Z",
+        "votante_adscrito": true
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 9,
+    "fields": {
+        "nombreusuario": "Able land place migh",
+        "telefonousuario": "Hour.",
+        "direccion": "Against former bill. Control h",
+        "fecharegistrocuenta": "2024-11-05T08:29:16.218Z",
+        "votante_adscrito": false
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 10,
+    "fields": {
+        "nombreusuario": "Dream suggest missio",
+        "telefonousuario": "Really.",
+        "direccion": "Notice sort thousand section a",
+        "fecharegistrocuenta": "2024-11-05T08:29:16.218Z",
+        "votante_adscrito": true
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 11,
+    "fields": {
+        "nombreusuario": "Example on call myse",
+        "telefonousuario": "Main.",
+        "direccion": "Guess beat experience black ba",
+        "fecharegistrocuenta": "2024-11-05T08:29:16.218Z",
+        "votante_adscrito": false
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 12,
+    "fields": {
+        "nombreusuario": "Site will modern tri",
+        "telefonousuario": "Learn.",
+        "direccion": "Structure keep when by recentl",
+        "fecharegistrocuenta": "2024-11-05T08:29:16.218Z",
+        "votante_adscrito": false
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 13,
+    "fields": {
+        "nombreusuario": "Over maybe fact neve",
+        "telefonousuario": "Response.",
+        "direccion": "Role themselves maybe those. G",
+        "fecharegistrocuenta": "2024-11-05T08:29:16.218Z",
+        "votante_adscrito": true
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 14,
+    "fields": {
+        "nombreusuario": "Why letter still tru",
+        "telefonousuario": "Food.",
+        "direccion": "Beautiful us them often. Playe",
+        "fecharegistrocuenta": "2024-11-05T08:29:16.218Z",
+        "votante_adscrito": false
+    }
+},
+{
+    "model": "examen.usuario",
+    "pk": 15,
+    "fields": {
+        "nombreusuario": "Analysis million wha",
+        "telefonousuario": "Get.",
+        "direccion": "Crime piece eye everyone indus",
+        "fecharegistrocuenta": "2024-11-05T08:29:16.218Z",
+        "votante_adscrito": true
+    }
+},
+{
+    "model": "examen.sistemavotaciones",
+    "pk": 1,
+    "fields": {
+        "puntuacion_proyecto": 5,
+        "comentario": "Television gun interest though charge left. Know not heavy of specific big every.\r\nAlmost letter next wife first stage. End style imagine them.\r\nField fish fly democratic. Tell hair image.",
+        "registrovotacion": "2024-11-05T08:29:16Z",
+        "usuario": 12,
+        "modelovotado": "Bolso"
+    }
+},
+{
+    "model": "examen.sistemavotaciones",
+    "pk": 2,
+    "fields": {
+        "puntuacion_proyecto": 4,
+        "comentario": "Born however decision long upon single. Who respond condition anything.\r\nFinal peace turn way per wide. Glass thought artist decide raise leave behind.",
+        "registrovotacion": "2024-11-05T08:29:16Z",
+        "usuario": 15,
+        "modelovotado": "Bolso"
+    }
+},
+{
+    "model": "examen.sistemavotaciones",
+    "pk": 3,
+    "fields": {
+        "puntuacion_proyecto": 3,
+        "comentario": "Apply the least seek. Indeed them college ahead area. Have thus candidate field miss allow throughout fear.\r\nField reduce air office feeling. Sit my you determine Republican soon head I.",
+        "registrovotacion": "2024-11-05T08:29:16Z",
+        "usuario": 1,
+        "modelovotado": "Bolso"
+    }
+},
+{
+    "model": "examen.sistemavotaciones",
+    "pk": 4,
+    "fields": {
+        "puntuacion_proyecto": 22405,
+        "comentario": "Fine special magazine experience. Mouth open my civil. Successful treat his computer our bank.",
+        "registrovotacion": "2024-11-05T08:29:16.218Z",
+        "usuario": 9,
+        "modelovotado": "Bolso"
+    }
+},
+{
+    "model": "examen.sistemavotaciones",
+    "pk": 5,
+    "fields": {
+        "puntuacion_proyecto": 2,
+        "comentario": "Mean modern product son despite. Follow hospital middle church determine there state. Participant wear less run wide instead old. Laugh not far young clear offer after.\r\nPlay its provide affect.",
+        "registrovotacion": "2024-11-05T08:29:16Z",
+        "usuario": 6,
+        "modelovotado": "Bolso"
+    }
+},
+{
+    "model": "examen.sistemavotaciones",
+    "pk": 6,
+    "fields": {
+        "puntuacion_proyecto": 15773,
+        "comentario": "Add space book believe finish PM. Without loss ahead explain.",
+        "registrovotacion": "2024-11-05T08:29:16.218Z",
+        "usuario": 10,
+        "modelovotado": "Bolso"
+    }
+},
+{
+    "model": "examen.sistemavotaciones",
+    "pk": 7,
+    "fields": {
+        "puntuacion_proyecto": 25607,
+        "comentario": "However kind point arm direction she news. With new mean crime.\nLight concern respond old across either. Training similar stay even feel.\nSend measure region size. Often your next clear professional.",
+        "registrovotacion": "2024-11-05T08:29:16.218Z",
+        "usuario": 5,
+        "modelovotado": "Bolso"
+    }
+},
+{
+    "model": "examen.sistemavotaciones",
+    "pk": 8,
+    "fields": {
+        "puntuacion_proyecto": 3909,
+        "comentario": "Month whether on series blood. Sea material for now wish marriage.\nWith sense better play form. Focus activity open degree knowledge dog stand sister. Resource test seat today drug seem.",
+        "registrovotacion": "2024-11-05T08:29:16.218Z",
+        "usuario": 4,
+        "modelovotado": "Bolso"
+    }
+},
+{
+    "model": "examen.sistemavotaciones",
+    "pk": 9,
+    "fields": {
+        "puntuacion_proyecto": 27861,
+        "comentario": "Rise admit science yes mean smile cold. Industry allow large. Avoid ever above memory our year southern.\nEnergy form south oil since article though executive. Suggest four spend thus majority site.",
+        "registrovotacion": "2024-11-05T08:29:16.218Z",
+        "usuario": 3,
+        "modelovotado": "Bolso"
+    }
+},
+{
+    "model": "examen.sistemavotaciones",
+    "pk": 10,
+    "fields": {
+        "puntuacion_proyecto": 3769,
+        "comentario": "Whole early significant town style herself weight mind. National over response specific art various property.",
+        "registrovotacion": "2024-11-05T08:29:16.218Z",
+        "usuario": 2,
+        "modelovotado": "Bolso"
+    }
+},
+{
+    "model": "examen.sistemavotaciones",
+    "pk": 11,
+    "fields": {
+        "puntuacion_proyecto": 18897,
+        "comentario": "Kitchen relationship likely board to. Cut few nation maintain late entire. Big ability drug according agent morning manager of. Later expert rise there.",
+        "registrovotacion": "2024-11-05T08:29:16.218Z",
+        "usuario": 11,
+        "modelovotado": "Bolso"
+    }
+},
+{
+    "model": "examen.sistemavotaciones",
+    "pk": 12,
+    "fields": {
+        "puntuacion_proyecto": 5,
+        "comentario": "Its foreign fly international news including. Attorney difficult person owner direction. Source work board standard control million.",
+        "registrovotacion": "2024-11-05T08:29:16Z",
+        "usuario": 8,
+        "modelovotado": "Bolso"
+    }
+},
+{
+    "model": "examen.sistemavotaciones",
+    "pk": 13,
+    "fields": {
+        "puntuacion_proyecto": 18784,
+        "comentario": "Friend weight item would.\nRepublican world create tell. Past community finally.\nArt mind always carry. Fire policy culture bad talk around inside interesting. Recognize manage week until law film.",
+        "registrovotacion": "2024-11-05T08:29:16.218Z",
+        "usuario": 14,
+        "modelovotado": "Bolso"
+    }
+},
+{
+    "model": "examen.sistemavotaciones",
+    "pk": 14,
+    "fields": {
+        "puntuacion_proyecto": 5,
+        "comentario": "Six hour that. Program very among available there Congress.\r\nThroughout on lot word on son. Author move man continue. Imagine movement whose development always case.",
+        "registrovotacion": "2024-11-05T08:29:16Z",
+        "usuario": 7,
+        "modelovotado": "Bolso"
+    }
+},
+{
+    "model": "examen.sistemavotaciones",
+    "pk": 15,
+    "fields": {
+        "puntuacion_proyecto": 15677,
+        "comentario": "Eye however analysis understand street tax moment turn.\nLoss close seek because throw. Serious specific participant or must treat military.",
+        "registrovotacion": "2024-11-05T08:29:16.218Z",
+        "usuario": 13,
+        "modelovotado": "Bolso"
+    }
+},
+{
+    "model": "examen.cuentabancaria",
+    "pk": 1,
+    "fields": {
+        "bancoasociado": "UNICAJA",
+        "saldocuenta": 0.4630145551378714,
+        "titularcuenta": 5
+    }
+},
+{
+    "model": "examen.cuentabancaria",
+    "pk": 2,
+    "fields": {
+        "bancoasociado": "UNICAJA",
+        "saldocuenta": 0.29530821259069995,
+        "titularcuenta": 14
+    }
+},
+{
+    "model": "examen.cuentabancaria",
+    "pk": 3,
+    "fields": {
+        "bancoasociado": "ING",
+        "saldocuenta": 0.07546905198089693,
+        "titularcuenta": 9
+    }
+},
+{
+    "model": "examen.cuentabancaria",
+    "pk": 4,
+    "fields": {
+        "bancoasociado": "ING",
+        "saldocuenta": 0.3334640386073018,
+        "titularcuenta": 8
+    }
+},
+{
+    "model": "examen.cuentabancaria",
+    "pk": 5,
+    "fields": {
+        "bancoasociado": "UNICAJA",
+        "saldocuenta": 0.28134493427473317,
+        "titularcuenta": 13
+    }
+},
+{
+    "model": "examen.cuentabancaria",
+    "pk": 6,
+    "fields": {
+        "bancoasociado": "Caixa.",
+        "saldocuenta": 0.2930763798941812,
+        "titularcuenta": 4
+    }
+},
+{
+    "model": "examen.cuentabancaria",
+    "pk": 7,
+    "fields": {
+        "bancoasociado": "ING",
+        "saldocuenta": 0.04320878237314074,
+        "titularcuenta": 15
+    }
+},
+{
+    "model": "examen.cuentabancaria",
+    "pk": 8,
+    "fields": {
+        "bancoasociado": "BBVA",
+        "saldocuenta": 0.3271159166853538,
+        "titularcuenta": 7
+    }
+},
+{
+    "model": "examen.cuentabancaria",
+    "pk": 9,
+    "fields": {
+        "bancoasociado": "Caixa.",
+        "saldocuenta": 0.9564732926375384,
+        "titularcuenta": 2
+    }
+},
+{
+    "model": "examen.cuentabancaria",
+    "pk": 10,
+    "fields": {
+        "bancoasociado": "UNICAJA",
+        "saldocuenta": 0.8687109356746906,
+        "titularcuenta": 10
+    }
+},
+{
+    "model": "examen.cuentabancaria",
+    "pk": 11,
+    "fields": {
+        "bancoasociado": "ING",
+        "saldocuenta": 0.8589463740803936,
+        "titularcuenta": 12
+    }
+},
+{
+    "model": "examen.cuentabancaria",
+    "pk": 12,
+    "fields": {
+        "bancoasociado": "ING",
+        "saldocuenta": 0.6771513397257128,
+        "titularcuenta": 6
+    }
+},
+{
+    "model": "examen.cuentabancaria",
+    "pk": 13,
+    "fields": {
+        "bancoasociado": "UNICAJA",
+        "saldocuenta": 0.5248420508153421,
+        "titularcuenta": 3
+    }
+},
+{
+    "model": "examen.cuentabancaria",
+    "pk": 14,
+    "fields": {
+        "bancoasociado": "Caixa.",
+        "saldocuenta": 0.43777316556304446,
+        "titularcuenta": 11
+    }
+},
+{
+    "model": "examen.cuentabancaria",
+    "pk": 15,
+    "fields": {
+        "bancoasociado": "UNICAJA",
+        "saldocuenta": 0.36789438641587413,
+        "titularcuenta": 1
+    }
+}
+]

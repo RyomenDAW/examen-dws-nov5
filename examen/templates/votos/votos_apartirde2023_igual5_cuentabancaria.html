@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Votos</title>
+</head>
+<body>
+    <h1>Lista de Votos</h1>
+    
+    {% for voto in voto %}
+        <div>
+            <p><strong>ID Votacion:</strong> {{ voto.id_votacion }}</p>
+            <p><strong>Puntuacion Proyecto:</strong> {{ voto.puntuacion_proyecto }}</p>
+            <p><strong>Comentario:</strong> {{ voto.comentario }}</p>
+            <p><strong>Registro Votacion :</strong> {{ voto.registrovotacion }}</p>
+            <p><strong>Modelo Votado:</strong> {{ voto.modelovotado}}
+            </p>
+        </div>
+        <hr>
+    {% endfor %}
+    
+</body>
+</html>

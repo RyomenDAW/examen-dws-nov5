@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Usuarios</title>
+</head>
+<body>
+    <h1>Lista de Usuarios</h1>
+    
+    {% for usuarios in usuarios %}
+        <div>
+            <p><strong>ID Usuario:</strong> {{ usuarios.id_usuario }}</p>
+            <p><strong>Nombre:</strong> {{ usuarios.nombreusuario }}</p>
+            <p><strong>Telefono de usuario:</strong> {{ usuarios.telefonousuario }}</p>
+            <p><strong>Direccion::</strong> {{ usuarios.direccion }}</p>
+            <p><strong>Fecha de registro:</strong> {{ usuarios.fecharegistrocuenta}}
+            <p><strong>Ha votado alguna vez?:</strong> {{ usuarios.votante_adscrito}}
+
+            </p>
+        </div>
+        <hr>
+    {% endfor %}
+    
+</body>
+</html>

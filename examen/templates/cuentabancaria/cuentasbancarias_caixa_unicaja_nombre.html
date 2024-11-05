@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Usuarios</title>
+</head>
+<body>
+    <h1>Lista de Usuarios</h1>
+    
+    {% for cuentabancaria in cuentabancaria %}
+        <div>
+            <p><strong>ID CuentaBancaria:</strong> {{ cuentabancaria.id_cuentabancaria }}</p>
+            <p><strong>Banco Asociado:</strong> {{ cuentabancaria.bancoasociado }}</p>
+            <p><strong>Saldo Cuenta:</strong> {{ cuentabancaria.saldocuenta }}</p>
+            </p>
+        </div>
+        <hr>
+    {% endfor %}
+    
+</body>
+</html>

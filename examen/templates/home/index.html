@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
+</head>
+<body>
+    <h1>Bienvenido a mi tienda de bolsos online: ISRAEL HERNANDEZ CHACON INC.</h1>
+    <h4>Acceda a las URL's, recuerde que los parametros ya estan puestos pero puedo modificarlos en la barra superior si quieres comprobar otro, (mira la BBDD)</h2>
+    <nav>
+        <ul>
+          <li>Lista de URL's:</li>
+          <li><a href="{% url 'ultimovoto_modeloconcreto_info' modeloconcreto="Bolso" %}">Ver Ultimo Voto Del modelo principal "Bolso"</a></li>
+          <li><a href="{% url 'modelosconvotosmenor3_cliente' %}">Ver modelos con votos menores que 3"</a></li>
+          <li><a href="{% url 'media_mayor_a_2ymedio_bolsos' %}">Ver bolsos con media de voto mayor que 2,5"</a></li>
+          <li><a href="{% url 'votos_apartirde2023_igual5_cuentabancaria' %}">Ver votos superiores a 2023"</a></li>
+          <li><a href="{% url 'usuariosquenuncahanvotado' %}">Informacion de los usuarios que nunca han votado"</a></li>
+          <li><a href="{% url 'cuentasbancarias_caixa_unicaja_nombre' nombre="Juan" %}">Informacion de los usuarios con unicaja"</a></li>
+
+       
+        </ul>
+    </nav>
+</body>
+</html>

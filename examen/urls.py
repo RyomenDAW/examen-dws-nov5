@@ -3,7 +3,13 @@ from . import views
 
 
 urlpatterns = [
-    
+    path('home/', views.inicio, name ='inicio'),
+    path('usuarios/<modeloconcreto>', views.ultimovoto_modeloconcreto_info, name='ultimovoto_modeloconcreto_info'),
+    path ('bolso/', views.modelosconvotosmenor3_cliente, name='modelosconvotosmenor3_cliente'),
+    path ('bolso/', views.media_mayor_a_2ymedio_bolsos, name='media_mayor_a_2ymedio_bolsos'),
+    path ('votos/', views.votos_apartirde2023_igual5_cuentabancaria, name='votos_apartirde2023_igual5_cuentabancaria'),
+    path ('cuentabancaria', views.cuentasbancarias_caixa_unicaja_nombre, name='cuentasbancarias_caixa_unicaja_nombre'),
+    path ('usuarios' ,views.usuariosquenuncahanvotado, name='usuariosquenuncahanvotado'),
 ]
 
 

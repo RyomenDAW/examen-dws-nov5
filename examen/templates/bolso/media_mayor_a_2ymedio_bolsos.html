@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Procesadores</title>
+</head>
+<body>
+    <h1>Lista de Bolsos</h1>
+    
+    {% for bolso in modelo %}
+        <div>
+            <p><strong>ID Bolso:</strong> {{ bolso.id_bolso }}</p>
+            <p><strong>PrecioBolso:</strong> {{ bolso.preciobolso }}</p>
+            <p><strong>FabricanteBolso:</strong> {{ bolso.fabricantebolso }}</p>
+            <p><strong>LongitudCorrea:</strong> {{ bolso.longitudcorrea }}</p>
+            <p><strong>MaterialBolso:</strong> {{ bolso.materialbolso}}
+            </p>
+        </div>
+        <hr>
+    {% endfor %}
+    
+</body>
+</html>
